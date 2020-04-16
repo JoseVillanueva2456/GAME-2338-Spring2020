@@ -1,0 +1,310 @@
+{
+  "id": "c719f349-8a12-441c-955c-a4b203001934",
+  "version": "2.0",
+  "name": "example",
+  "url": "https://osu.ppy.sh",
+  "tests": [{
+    "id": "2ef6e08f-de05-41ca-8072-935c48e791df",
+    "name": "Play Song From dark cat",
+    "commands": [{
+      "id": "e60dd089-aa32-465d-92b3-3d19ec3e0a59",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2813bdb2-9fd9-4997-83e2-5e2c15db317b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2f87d2f-d6b3-4e49-9036-b1fe4de4526f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=beatmaps",
+      "targets": [
+        ["linkText=beatmaps", "linkText"],
+        ["css=.landing-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'beatmaps')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://osu.ppy.sh/beatmapsets')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2203464-4b2a-4890-83be-55b7a32300de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=home",
+      "targets": [
+        ["css=.js-menu--active > .nav2__menu-link-main-text", "css:finder"],
+        ["xpath=//div[4]/div/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba8a261c-8ec9-4cc6-9d0f-1665c9460067",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=beatmaps",
+      "targets": [
+        ["linkText=beatmaps", "linkText"],
+        ["css=.js-menu--active", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://osu.ppy.sh/beatmapsets')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0b9ad77-9f09-4813-bf57-d5113bbe2e04",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=featured artists",
+      "targets": [
+        ["linkText=featured artists", "linkText"],
+        ["css=.u-section-beatmaps--before-bg-normal:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'featured artists')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://osu.ppy.sh/beatmaps/artists')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71647af8-bf78-4bd4-acc3-aa9e4ed77041",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=dark cat",
+      "targets": [
+        ["linkText=dark cat", "linkText"],
+        ["css=.artist__box:nth-child(14) > .artist__name", "css:finder"],
+        ["xpath=//a[contains(text(),'dark cat')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://osu.ppy.sh/beatmaps/artists/6')])[4]", "xpath:href"],
+        ["xpath=//div[14]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'dark cat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "051d4ce3-2958-4377-8b34-e285efcd78ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tracklist__row:nth-child(16) .tracklist__cover .fas",
+      "targets": [
+        ["css=.tracklist__row:nth-child(16) .tracklist__cover .fas", "css:finder"],
+        ["xpath=//tr[16]/td/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "805f929c-61dd-4ef4-8548-ec1c89b0a715",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[8]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1564bfb2-8868-4e77-9256-1b292792497d",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I"
+    }, {
+      "id": "d96b7b60-f29f-44d6-81bc-d705299245d8",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I "
+    }, {
+      "id": "e910cd98-576c-4264-a5d3-33d52f014623",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I l"
+    }, {
+      "id": "aef8a28b-85af-470b-8b07-e0d14061f5aa",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I li"
+    }, {
+      "id": "911cd7fb-4d1a-4e15-a314-c495aa2a5e01",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I lik"
+    }, {
+      "id": "72b91fa1-80a9-4f65-9c5b-e1d38615f5bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like"
+    }, {
+      "id": "c57dbed0-79e4-4cd9-8dd5-db2e447f4c96",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like "
+    }, {
+      "id": "ebf3d4a3-a437-42f6-9bb9-6530a5f0d169",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like t"
+    }, {
+      "id": "deb6cdb0-aabd-47af-9a93-0f0a8b66626f",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like th"
+    }, {
+      "id": "2a40a1b4-72bc-4af7-b712-52dc1ac92065",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like thi"
+    }, {
+      "id": "da9ac66a-5896-4ec8-8ae9-b5595b9bd254",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like this"
+    }, {
+      "id": "b9f5a7fb-fba3-4c37-8953-74aef34714a2",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like this "
+    }, {
+      "id": "7059a36d-736d-4b81-ad0e-f574692ec21c",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like this s"
+    }, {
+      "id": "b8f2f220-de5c-4ecf-99fb-6944d5a6fc6d",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like this so"
+    }, {
+      "id": "b2cfb0b8-9fa6-4270-b220-1ac9e875e0d7",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like this son"
+    }, {
+      "id": "aae10756-9504-4ce6-a642-bdaa14956bee",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.js-nav2--autofocus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I like this song"
+    }]
+  }],
+  "suites": [{
+    "id": "a03d64c4-a3be-48d6-ae53-42533c5169b9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ef6e08f-de05-41ca-8072-935c48e791df"]
+  }],
+  "urls": ["https://osu.ppy.sh/"],
+  "plugins": []
+}
