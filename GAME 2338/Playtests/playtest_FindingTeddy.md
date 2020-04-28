@@ -1,4 +1,4 @@
-# Playtest for FindingTeddy
+# Playtest for Finding Teddy
 
 * LookAtMyGame, Plug In Digital
 * 9/10 (steam reviews)
@@ -23,4 +23,4 @@
 > _Answer:_ It was ok, point and click games can't get too interesting (even in a more story driven approach like "[The Bunker](https://store.steampowered.com/app/481110/The_Bunker/)". The enjoyment really comes from the visuals/story (which were nice).
 
 **Question:** During gameplay what problems or issues seemed to happen and how did you get them to reoccur?
-> _Answer:_ The only problem that I ran into was a wierldy placed "clickable" where you are able to cross a pond but was required to click in a certian area as opposed to other new area movement clicks.
+> _Answer:_ The only problem that I ran into was a weirdly placed "clickable" where you are able to cross a pond but was required to click in a certain area as opposed to other new area movement clicks.
